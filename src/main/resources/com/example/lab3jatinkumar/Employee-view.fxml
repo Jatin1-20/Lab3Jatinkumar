@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="412.0" prefWidth="437.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.lab3jatinkumar.Dashboard">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="200.0" prefWidth="200.0">
+      <children>
+          <Button layoutX="37.0" layoutY="66.0" onAction="#onHelloButtonClick" prefHeight="46.0" prefWidth="90.0" text="Admin" />
+         <Button layoutX="145.0" layoutY="167.0"  mnemonicParsing="false" prefHeight="39.0" prefWidth="107.0" onAction="#Ek" text="Exit" />
+         <Button layoutX="159.0" layoutY="66.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="90.0" text="Logout" />
+         <Button layoutX="290.0" layoutY="69.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="99.0" text="Employee" />
+      </children>
+   </Pane>
+
+    <Label fx:id="welcomeText" />
+</VBox>
